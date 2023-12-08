@@ -52,12 +52,6 @@ def get_frequency_dict(sequence):
     return freq
 
 
-# (end of helper code)
-# -----------------------------------
-
-#
-# Problem #1: Scoring a word
-#
 def get_word_score(word, n):
     first_component = 0
     second_component = 0
@@ -230,21 +224,7 @@ def play_game(word_list):
         if HAND_TOTAL == HAND_SIZE:
             print("Total score over all hands: ", final_score)
 
+
 if __name__ == '__main__':
     word_list_test = load_words()
     play_game(word_list_test)
-    # hand_test = deal_hand(7)
-    # hand_test = {'r': 1, 'a': 3, 'p': 2, 'e': 1, 't': 1, 'u': 1}
-    # letter_test = 'u'
-    # substitute_hand(hand_test, letter_test)
-    # play_hand(hand_test, word_list_test)
-    # play_game(word_list)
-    # word_test = "Rapture"
-    # n_test = 7
-    # get_word_score(word_test, n_test)
-
-    # is_valid_word(word_test, hand_test, word_list_test)
-    # hand_test = deal_hand(7)
-    # display_hand(hand_test)
-    # is_valid_word(word_test, hand_test, word_list_test)
-    # calculate_handlen(hand_test)
